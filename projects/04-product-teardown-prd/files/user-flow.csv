@@ -1,0 +1,6 @@
+Stage,User action,Theme or failure point
+Sign up,Create account and verify identity,"Access, usability, support"
+Link bank,Authorize funding and confirm linked account,"Access, support"
+First investment,Choose method and check funding progresses,"Transfer status, tracking, support"
+Ongoing use,"Monitor Round-Ups, scheduled transfers and portfolio","Transfer status, usability, support"
+Close account,Withdraw/transfer and cancel subscription,"Withdrawal, fees, support"

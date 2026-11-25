@@ -1,0 +1,34 @@
+{
+  "orders": 99441,
+  "unique": 96096,
+  "raw_order_customer_ids": 99441,
+  "duplicate_order_ids": 0,
+  "start": "2016-09-04",
+  "end": "2018-10-17",
+  "cutoff": "2018-08-29",
+  "eligible": 98207,
+  "eligible_customers": 94990,
+  "repeat_customers": 2888,
+  "on_time_n": 69584,
+  "late_n": 5689,
+  "on_time_repeats": 1617,
+  "late_repeats": 115,
+  "on_time": 0.023238100712807543,
+  "late": 0.02021444893654421,
+  "difference": -0.0030236517762633336,
+  "diff_ci": [
+    -0.006848224876642853,
+    0.0008009213241161857
+  ],
+  "chi_square": 2.138802472506128,
+  "chi_p": 0.14361396010045271,
+  "odds_ratio": 0.9000165977336453,
+  "odds_ci": [
+    0.7392240640717663,
+    1.0957839653301735
+  ],
+  "logit_p": 0.29414411932219076,
+  "logit_gradient": 3.8257731903752756e-05,
+  "late_stars": 2.2718225983388183,
+  "on_time_stars": 4.290589164793966
+}

@@ -1,0 +1,9 @@
+Risk,Likelihood,Impact,Trigger / leading indicator,Mitigation,Owner
+Furniture delivery slips,Medium,High,Supplier moves confirmed date,Stage equipment and reserve contingency slot,Office lead
+Implementation hire misses start,Medium,High,Candidate declines or clearance slips,Assign acting owner and revisit start weekly,People lead
+AV change order pushes budget,Medium,High,Forecast exceeds office cap,Remove deferrable scope and require change approval,COO
+Pilot signal breaches reliability gate,Medium,High,Release alert crosses threshold,Pause expansion and rehearse rollback,Engineering lead
+Help volume spikes,Medium,Medium,Backlog rises above trajectory,Reallocate CX staffing and publish known issues,CX director
+Access controls fail occupancy test,Low,High,Badge or exit drill fails,Delay occupancy and run remote fallback,IT lead
+Vendor terms hide exclusions,Medium,Medium,Unpriced inspection or permit items,Normalize bids and freeze change scope,Office lead
+CEO approval collides with external commitments,Medium,Medium,Decision window overlaps partner event,Name delegated signoff and protect brief time,Chief of staff

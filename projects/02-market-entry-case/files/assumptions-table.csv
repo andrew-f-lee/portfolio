@@ -1,0 +1,22 @@
+Metric,Value,Source or basis,Date
+Scenario selector,2,"1 Conservative, 2 Base, 3 Optimistic",Assumption
+"Swedish retail food and beverage sales, SEK m",430000,https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/business-production-sales-and-finances/food-sales/pong/statistical-news/food-sales-2025/,2026-09-25
+Sweden population,10605529,https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population-and-living-conditions/population-composition-and-development/population-statistics/pong/tables-and-graphs/swedens-population-in-summary-1960-2025-corrected-2026-06-18/,2025-12-31
+County population,1777803,https://www.scb.se/hitta-statistik/sverige-i-siffror/manniskorna-i-sverige/befolkningstathet-i-sverige/,2025-12-31
+Share of county within drive-time proxy,0.54,Assumption pending geospatial study,2026-11-24
+People per household,2.15,Assumption pending household-level data,2026-11-24
+Net annual member fee SEK,400,https://www.ad-hoc-news.de/wirtschaft/produkte/costco-membership-von-costco-wholesale-500-sek-jahresgebuehr/70071216 | SEK 500 inclusive of 25% VAT,2026-09-08
+Discount rate,0.1,Assumption,2026-11-24
+"Maintenance per year, SEK m",12,Assumption,2026-11-24
+Net working capital / merchandise sales,0.035,Assumption,2026-11-24
+Cash tax proxy,0.206,Assumption for simplified cash tax model,2026-11-24
+Year 1 fraction of steady-state members,0.38,Assumption,2026-11-24
+Year 2 fraction of steady-state members,0.58,Assumption,2026-11-24
+Year 3 fraction of steady-state members,0.76,Assumption,2026-11-24
+Year 4 fraction of steady-state members,0.9,Assumption,2026-11-24
+Year 5 fraction of steady-state members,1,Assumption,2026-11-24
+
+Scenario,Mature adoption,Annual spend SEK,Merch gross margin,Annual fixed opex SEK M,Initial investment SEK M
+Conservative,0.105,12000,0.112,112,440
+Base,0.17,14000,0.132,102,390
+Optimistic,0.225,16500,0.145,95,355

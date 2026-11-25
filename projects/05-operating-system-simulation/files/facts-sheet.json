@@ -1,0 +1,583 @@
+{
+  "company": "Relay",
+  "stage": "Series B",
+  "simulation": true,
+  "headcount": {
+    "Engineering": 25,
+    "Product and design": 8,
+    "Go-to-market": 20,
+    "Customer experience": 13,
+    "Operations and finance": 9,
+    "People and admin": 5
+  },
+  "arr": 12000000,
+  "burn": 480000,
+  "cash": 8640000,
+  "launch": "2027-03-04",
+  "office": "2027-03-17",
+  "quarter_start": "2027-01-04",
+  "quarter_end": "2027-03-26",
+  "office_cap": 360000,
+  "office_forecast_initial": 342000,
+  "office_overrun": 32000,
+  "office_scope_trade": 22000,
+  "spend": {
+    "Fit-out": 148000,
+    "Furniture": 65000,
+    "Network and access": 49000,
+    "Move": 23000,
+    "AV and setup": 30000,
+    "Contingency": 27000
+  },
+  "vendors": {
+    "Atlas Workplace": [
+      148000,
+      5,
+      "Fixed scope, change freeze, permits coordination"
+    ],
+    "Northline Build": [
+      137000,
+      7,
+      "Longer schedule, permit fees excluded"
+    ],
+    "Foundry Works": [
+      161000,
+      4,
+      "Fast schedule, ceiling repairs excluded"
+    ]
+  },
+  "hire": {
+    "role": "Customer implementation lead",
+    "target": "2027-02-01",
+    "revised": "2027-02-22",
+    "annual_salary_band": [
+      135000,
+      155000
+    ],
+    "acting_owner": "CX director"
+  },
+  "kpis": {
+    "ARR": [
+      12000000,
+      12300000,
+      12400000,
+      "At least"
+    ],
+    "Monthly logo churn": [
+      0.011,
+      0.0105,
+      0.01,
+      "At most"
+    ],
+    "Support backlog": [
+      140,
+      108,
+      95,
+      "At most"
+    ],
+    "On-time customer delivery": [
+      0.86,
+      0.92,
+      0.93,
+      "At least"
+    ],
+    "Monthly support cost per customer": [
+      112,
+      107,
+      105,
+      "At most"
+    ]
+  },
+  "vendor_delay_days": 7,
+  "buffer_days": 10,
+  "baseline_handoff_hours": 40,
+  "target_handoff_hours": 24,
+  "sample_handoffs": 20,
+  "all_hands_minutes": 50,
+  "all_hands_capacity": 85,
+  "visitor_cap": 12,
+  "pilot_accounts": 12,
+  "release_alert_threshold": 0.03,
+  "hiring_interview_minutes": 45,
+  "weekly_status_weeks": [
+    4,
+    5,
+    8
+  ],
+  "total_headcount": 80,
+  "runway_months": 18.0,
+  "office_latest_forecast": 352000,
+  "office_remaining_headroom": 8000,
+  "tasks": [
+    {
+      "ID": 1,
+      "Workstream": "Launch",
+      "Task": "Confirm release owner and acceptance gates",
+      "Owner": "Product lead",
+      "Start": "2027-01-04",
+      "Due": "2027-01-08",
+      "Dependencies": ""
+    },
+    {
+      "ID": 2,
+      "Workstream": "Launch",
+      "Task": "Interview pilot account sponsors",
+      "Owner": "Product lead",
+      "Start": "2027-01-08",
+      "Due": "2027-01-15",
+      "Dependencies": "1"
+    },
+    {
+      "ID": 3,
+      "Workstream": "Launch",
+      "Task": "Freeze launch scope and rollout design",
+      "Owner": "Product lead",
+      "Start": "2027-01-15",
+      "Due": "2027-01-15",
+      "Dependencies": "2"
+    },
+    {
+      "ID": 4,
+      "Workstream": "Launch",
+      "Task": "Instrument release controls",
+      "Owner": "Engineering lead",
+      "Start": "2027-01-15",
+      "Due": "2027-01-29",
+      "Dependencies": "3"
+    },
+    {
+      "ID": 5,
+      "Workstream": "Launch",
+      "Task": "Write support playbook and known issues",
+      "Owner": "CX director",
+      "Start": "2027-01-18",
+      "Due": "2027-02-05",
+      "Dependencies": "3"
+    },
+    {
+      "ID": 6,
+      "Workstream": "Launch",
+      "Task": "Create analytics and escalation alerts",
+      "Owner": "Engineering lead",
+      "Start": "2027-01-29",
+      "Due": "2027-02-05",
+      "Dependencies": "4"
+    },
+    {
+      "ID": 7,
+      "Workstream": "Launch",
+      "Task": "Draft product and enablement materials",
+      "Owner": "Marketing lead",
+      "Start": "2027-01-18",
+      "Due": "2027-02-12",
+      "Dependencies": "3"
+    },
+    {
+      "ID": 8,
+      "Workstream": "Launch",
+      "Task": "Run accessibility and QA smoke tests",
+      "Owner": "QA lead",
+      "Start": "2027-02-01",
+      "Due": "2027-02-12",
+      "Dependencies": "4"
+    },
+    {
+      "ID": 9,
+      "Workstream": "Launch",
+      "Task": "Launch bounded account pilot",
+      "Owner": "Product lead",
+      "Start": "2027-02-15",
+      "Due": "2027-02-19",
+      "Dependencies": "5, 6, 8"
+    },
+    {
+      "ID": 10,
+      "Workstream": "Launch",
+      "Task": "Review pilot failure and adoption signals",
+      "Owner": "Engineering lead",
+      "Start": "2027-02-22",
+      "Due": "2027-02-26",
+      "Dependencies": "9"
+    },
+    {
+      "ID": 11,
+      "Workstream": "Launch",
+      "Task": "Run launch readiness and rollback drill",
+      "Owner": "Product lead",
+      "Start": "2027-02-22",
+      "Due": "2027-02-26",
+      "Dependencies": "7, 9"
+    },
+    {
+      "ID": 12,
+      "Workstream": "Launch",
+      "Task": "Release to general availability",
+      "Owner": "Product lead",
+      "Start": "2027-03-04",
+      "Due": "2027-03-04",
+      "Dependencies": "10, 11"
+    },
+    {
+      "ID": 13,
+      "Workstream": "Launch",
+      "Task": "Hold launch incident and customer review",
+      "Owner": "CX director",
+      "Start": "2027-03-04",
+      "Due": "2027-03-12",
+      "Dependencies": "12"
+    },
+    {
+      "ID": 14,
+      "Workstream": "Launch",
+      "Task": "Review first monthly release performance",
+      "Owner": "COO",
+      "Start": "2027-03-15",
+      "Due": "2027-03-26",
+      "Dependencies": "13"
+    },
+    {
+      "ID": 15,
+      "Workstream": "Office",
+      "Task": "Confirm cap and critical-path owners",
+      "Owner": "COO",
+      "Start": "2027-01-04",
+      "Due": "2027-01-08",
+      "Dependencies": ""
+    },
+    {
+      "ID": 16,
+      "Workstream": "Office",
+      "Task": "Survey floor plan and life-safety routes",
+      "Owner": "Office lead",
+      "Start": "2027-01-08",
+      "Due": "2027-01-15",
+      "Dependencies": "15"
+    },
+    {
+      "ID": 17,
+      "Workstream": "Office",
+      "Task": "Request comparable contractor quotes",
+      "Owner": "Office lead",
+      "Start": "2027-01-08",
+      "Due": "2027-01-15",
+      "Dependencies": "15"
+    },
+    {
+      "ID": 18,
+      "Workstream": "Office",
+      "Task": "Award fit-out with schedule protections",
+      "Owner": "COO",
+      "Start": "2027-01-18",
+      "Due": "2027-01-22",
+      "Dependencies": "16, 17"
+    },
+    {
+      "ID": 19,
+      "Workstream": "Office",
+      "Task": "Finalize permit and landlord approvals",
+      "Owner": "Office lead",
+      "Start": "2027-01-22",
+      "Due": "2027-01-29",
+      "Dependencies": "18"
+    },
+    {
+      "ID": 20,
+      "Workstream": "Office",
+      "Task": "Confirm furniture delivery slots",
+      "Owner": "Office lead",
+      "Start": "2027-01-22",
+      "Due": "2027-01-29",
+      "Dependencies": "18"
+    },
+    {
+      "ID": 21,
+      "Workstream": "Office",
+      "Task": "Flag delivery slip and reserve staging",
+      "Owner": "Office lead",
+      "Start": "2027-01-29",
+      "Due": "2027-01-29",
+      "Dependencies": "20"
+    },
+    {
+      "ID": 22,
+      "Workstream": "Office",
+      "Task": "Complete fit-out and inspection prep",
+      "Owner": "Atlas Workplace",
+      "Start": "2027-02-01",
+      "Due": "2027-03-05",
+      "Dependencies": "19"
+    },
+    {
+      "ID": 23,
+      "Workstream": "Office",
+      "Task": "Pre-stage equipment and configure access",
+      "Owner": "IT lead",
+      "Start": "2027-02-01",
+      "Due": "2027-02-26",
+      "Dependencies": "19, 21"
+    },
+    {
+      "ID": 24,
+      "Workstream": "Office",
+      "Task": "Trade scope after AV change notice",
+      "Owner": "COO",
+      "Start": "2027-02-22",
+      "Due": "2027-02-26",
+      "Dependencies": "21"
+    },
+    {
+      "ID": 25,
+      "Workstream": "Office",
+      "Task": "Inspect exits, access and network",
+      "Owner": "Office lead",
+      "Start": "2027-03-08",
+      "Due": "2027-03-12",
+      "Dependencies": "22, 23, 24"
+    },
+    {
+      "ID": 26,
+      "Workstream": "Office",
+      "Task": "Complete employee move and open office",
+      "Owner": "Office lead",
+      "Start": "2027-03-17",
+      "Due": "2027-03-17",
+      "Dependencies": "25"
+    },
+    {
+      "ID": 27,
+      "Workstream": "Office",
+      "Task": "Record punch list and vendor signoff",
+      "Owner": "Office lead",
+      "Start": "2027-03-17",
+      "Due": "2027-03-26",
+      "Dependencies": "26"
+    },
+    {
+      "ID": 28,
+      "Workstream": "Office",
+      "Task": "Host opening all-hands and capture feedback",
+      "Owner": "Chief of staff",
+      "Start": "2027-03-18",
+      "Due": "2027-03-18",
+      "Dependencies": "26"
+    },
+    {
+      "ID": 29,
+      "Workstream": "People and operations",
+      "Task": "Approve implementation lead requisition",
+      "Owner": "People lead",
+      "Start": "2027-01-04",
+      "Due": "2027-01-08",
+      "Dependencies": ""
+    },
+    {
+      "ID": 30,
+      "Workstream": "People and operations",
+      "Task": "Publish role and scorecard",
+      "Owner": "People lead",
+      "Start": "2027-01-08",
+      "Due": "2027-01-15",
+      "Dependencies": "29"
+    },
+    {
+      "ID": 31,
+      "Workstream": "People and operations",
+      "Task": "Run screens and structured panel",
+      "Owner": "People lead",
+      "Start": "2027-01-15",
+      "Due": "2027-01-29",
+      "Dependencies": "30"
+    },
+    {
+      "ID": 32,
+      "Workstream": "People and operations",
+      "Task": "Activate acting lead after missed start",
+      "Owner": "CX director",
+      "Start": "2027-02-01",
+      "Due": "2027-02-05",
+      "Dependencies": "31"
+    },
+    {
+      "ID": 33,
+      "Workstream": "People and operations",
+      "Task": "Close revised candidate and references",
+      "Owner": "People lead",
+      "Start": "2027-02-05",
+      "Due": "2027-02-19",
+      "Dependencies": "32"
+    },
+    {
+      "ID": 34,
+      "Workstream": "People and operations",
+      "Task": "Prepare onboarding and device staging",
+      "Owner": "People lead",
+      "Start": "2027-02-19",
+      "Due": "2027-02-19",
+      "Dependencies": "33"
+    },
+    {
+      "ID": 35,
+      "Workstream": "People and operations",
+      "Task": "Start implementation lead",
+      "Owner": "People lead",
+      "Start": "2027-02-22",
+      "Due": "2027-02-22",
+      "Dependencies": "34"
+    },
+    {
+      "ID": 36,
+      "Workstream": "People and operations",
+      "Task": "Baseline implementation handoff lag",
+      "Owner": "CX director",
+      "Start": "2027-01-11",
+      "Due": "2027-01-29",
+      "Dependencies": "29"
+    },
+    {
+      "ID": 37,
+      "Workstream": "People and operations",
+      "Task": "Test intake owner and completeness trigger",
+      "Owner": "CX director",
+      "Start": "2027-02-05",
+      "Due": "2027-02-19",
+      "Dependencies": "32, 36"
+    },
+    {
+      "ID": 38,
+      "Workstream": "People and operations",
+      "Task": "Publish KPI baseline and definitions",
+      "Owner": "Finance lead",
+      "Start": "2027-01-11",
+      "Due": "2027-01-22",
+      "Dependencies": "29"
+    },
+    {
+      "ID": 39,
+      "Workstream": "People and operations",
+      "Task": "Publish week-eight decision log",
+      "Owner": "Chief of staff",
+      "Start": "2027-02-26",
+      "Due": "2027-02-26",
+      "Dependencies": "24, 35, 37"
+    },
+    {
+      "ID": 40,
+      "Workstream": "People and operations",
+      "Task": "Run quarter-end outcomes and ownership review",
+      "Owner": "COO",
+      "Start": "2027-03-26",
+      "Due": "2027-03-26",
+      "Dependencies": "14, 27, 28, 39"
+    }
+  ],
+  "raci": [
+    [
+      "Release gates",
+      "Engineering lead, QA lead",
+      "Product lead",
+      "CX director, Marketing lead",
+      "CEO"
+    ],
+    [
+      "Launch communications",
+      "Marketing lead",
+      "Product lead",
+      "CX director",
+      "Company"
+    ],
+    [
+      "Office fit-out",
+      "Office lead, Atlas Workplace",
+      "COO",
+      "IT lead, Finance lead",
+      "Company"
+    ],
+    [
+      "Office occupancy signoff",
+      "Office lead",
+      "COO",
+      "IT lead, landlord",
+      "People lead"
+    ],
+    [
+      "Implementation lead hire",
+      "People lead",
+      "CX director",
+      "Finance lead, COO",
+      "Chief of staff"
+    ],
+    [
+      "Board packet",
+      "Chief of staff, Finance lead",
+      "CEO",
+      "COO, Product lead",
+      "Leadership"
+    ]
+  ],
+  "risks": [
+    [
+      "Furniture delivery slips",
+      "Medium",
+      "High",
+      "Supplier moves confirmed date",
+      "Stage equipment and reserve contingency slot",
+      "Office lead"
+    ],
+    [
+      "Implementation hire misses start",
+      "Medium",
+      "High",
+      "Candidate declines or clearance slips",
+      "Assign acting owner and revisit start weekly",
+      "People lead"
+    ],
+    [
+      "AV change order pushes budget",
+      "Medium",
+      "High",
+      "Forecast exceeds office cap",
+      "Remove deferrable scope and require change approval",
+      "COO"
+    ],
+    [
+      "Pilot signal breaches reliability gate",
+      "Medium",
+      "High",
+      "Release alert crosses threshold",
+      "Pause expansion and rehearse rollback",
+      "Engineering lead"
+    ],
+    [
+      "Help volume spikes",
+      "Medium",
+      "Medium",
+      "Backlog rises above trajectory",
+      "Reallocate CX staffing and publish known issues",
+      "CX director"
+    ],
+    [
+      "Access controls fail occupancy test",
+      "Low",
+      "High",
+      "Badge or exit drill fails",
+      "Delay occupancy and run remote fallback",
+      "IT lead"
+    ],
+    [
+      "Vendor terms hide exclusions",
+      "Medium",
+      "Medium",
+      "Unpriced inspection or permit items",
+      "Normalize bids and freeze change scope",
+      "Office lead"
+    ],
+    [
+      "CEO approval collides with external commitments",
+      "Medium",
+      "Medium",
+      "Decision window overlaps partner event",
+      "Name delegated signoff and protect brief time",
+      "Chief of staff"
+    ]
+  ]
+}
